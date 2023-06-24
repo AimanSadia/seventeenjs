@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+
+        /* Question #01 */
+
+        /*  // Declaring an array
+         var multiDimArray;
+         // Initializing an array
+         var multiDimArray = [[]];
+         console.log(multiDimArray); */
+
+
+
+        /* Question #02 */
+
+        /*  // Declaring an array
+         var myMtrx;
+         // Initializing an array
+         var myMtrx = [
+             [0, 1, 2, 3],
+             [1, 0, 1, 2],
+             [2, 1, 0, 1]
+         ];
+ 
+         //Assessing a particular column
+         console.log(myMtrx[0][0]);
+         console.log(myMtrx[1][0]);
+         console.log(myMtrx[2][0]);
+ 
+         console.log(myMtrx[0][1]);
+         console.log(myMtrx[1][1]);
+         console.log(myMtrx[2][1]);
+ 
+         console.log(myMtrx[0][2]);
+         console.log(myMtrx[1][2]);
+         console.log(myMtrx[2][2]);
+ 
+         console.log(myMtrx[0][3]);
+         console.log(myMtrx[1][3]);
+         console.log(myMtrx[2][3]);
+ 
+         //Assessing a particular row
+         var myRow = myMtrx[0];
+         console.log(myRow);
+         var myRow = myMtrx[1];
+         console.log(myRow);
+         var myRow = myMtrx[2];
+         console.log(myRow); */
+
+
+        /* Question #03 */
+
+        /*  for (var i=1; i<=10; i++) {
+             console.log(i);
+         } */
+
+
+        /* Question #04 */
+
+        /* // Taking the user input from  the user for lenght and  number of table
+        var num = parseInt(prompt("Enter the number to show its multiplication table:"));
+        var lenght = parseInt(prompt("Enter length of multiplication table:"));
+
+        console.log("Multiplication Table of " + num +  " Lenght " +  lenght);
+
+        for (var i = 1; i <= lenght; i++) {
+            var finaltable = num * i;
+            console.log(num + " x " + i + " = " + finaltable);
+        } */
+
+
+        /* Question #05 */
+
+        /* // printing fruits array
+        var fruits = ["apple","banana","mango","orange","strawberry"];
+        for (var i=0; i<fruits.length; i++){
+            console.log(fruits[i]);
+        }
+        console.log(`Element at index 0 is ${fruits[0]}`);
+        console.log(`Element at index 0 is ${fruits[1]}`);
+        console.log(`Element at index 0 is ${fruits[2]}`);
+        console.log(`Element at index 0 is ${fruits[3]}`);
+        console.log(`Element at index 0 is ${fruits[4]}`); */
+
+
+        /* Question #06 */
+
+        /*  var A = ["cake", apple pie", "cookie", "chips", "patties"];
+ 
+         var userPrompt = prompt("Welcome to ABC Bakey. What do you want to order sir/ma'am?");
+ 
+         var match = false;
+ 
+         for (var i = 0; i < A.length; i++) {
+             if (A[i] === userPrompt) {
+                 match = true;
+                 break;
+             }
+         }
+ 
+         if (match) {
+             console.log(`${userPrompt} is available at index ${i} in our bakery`);
+         } else {
+             console.log(`We are sorry ${userPrompt} is not available at our bakery`);
+         } */
+
+
+        /* Question #07 */
+
+        /* document.write("<b>Counting:</b> ");
+        document.write("<br>");
+        document.write("<br>");
+        for (var i = 1; i <= 15; i++) {
+            document.write(i + ", ");
+        }
+        document.write("<br>");
+        document.write("<br>");
+
+        document.write("<b>Reverse counting:</b> ");
+        document.write("<br>");
+        document.write("<br>");
+        for (var i = 10; i >= 1; i--) {
+            document.write(i + ", ");
+        }
+        document.write("<br>");
+        document.write("<br>");
+
+        document.write("<b>Even:</b> ");
+        document.write("<br>");
+        document.write("<br>");
+        for (var i = 0; i <= 20; i += 2) {
+            document.write(i + ", ");
+        }
+        document.write("<br>");
+        document.write("<br>");
+
+        document.write("<b>Odd:</b> ");
+        document.write("<br>");
+        document.write("<br>");
+        for (var i = 1; i <= 19; i += 2) {
+            document.write(i + ", ");
+        }
+        document.write("<br>");
+        document.write("<br>");
+
+        document.write("<b>Series:</b> ");
+        document.write("<br>");
+        document.write("<br>");
+        for (var i = 2; i <= 20; i += 2) {
+            document.write(i + "k, ");
+        } */
+
+        /* Question #08 */
+
+        /* var A = [24, 53, 78, 91, 12];
+        //Supposing largest number is at 0th index of an array
+        var largestNum = A[0]; 
+        for (var i = 1; i < A.length; i++) {
+            if (A[i] > largestNum) {
+                largestNum = A[i];
+            }
+            else{
+                console.log("Large number");
+            }
+        }
+
+        console.log("Array items: " +A);
+        console.log("The largest number is: " + largestNum ); */
+
+
+        /* Question #09 */
+
+        /*  var A = [24, 53, 78, 91, 12];
+         //Supposing smallest number is at 0th index of an array
+         var smallestNum = A[0]; 
+         for (var i = 1; i < A.length; i++) {
+             if (A[i] < smallestNum) {
+                 smallestNum = A[i];
+             }
+             else{
+                 console.log("Large number");
+             }
+         }
+ 
+         console.log("Array items: " +A);
+         console.log("The smallest number is: " + smallestNum );
+         */
+
+
+        /* Question #10 */
+
+        /* for (var i = 0; i <= 100; i++) {
+            if (i % 5 === 0) {
+                console.log("Multiple of 5 is " + i);
+            }
+        }
+        */
+
+    </script>
+
+
+
+
+</body>
+
+</html>
